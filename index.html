@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- NAVIGASI BAR -->
+  <nav class="navbar">
+    <div class="navbar_wrapper">
+      <h1 class="brand">Angga & Suzy</h1>
+
+      <menu class="navbar_menu">
+        <a href="#akad">Akad</a>
+        <a href="#resepsi">Resepsi</a>
+        <a href="#buku_tamu">Buku Tamu</a>
+        <a href="#map">Map</a>
+        <a href="#gallery">Gallery</a>
+      </menu>
+    </div>
+  </nav>
+  <!-- END NAVIGASI BAR -->
+
+  <main class="container">
+    <!-- HERO -->
+    <div class="hero">
+      <p>Pernikahan</p>
+      <h1>Angga & Suzy</h1>
+      <p>Jakarta, 31 Agustus 2022</p>
+    </div>
+    <!-- END HERO -->
+
+    <!-- AKAD -->
+    <section id="akad">
+      <h1 class="section_title">Akad Nikah</h1>
+      <div class="section_wrapper">
+        <div class="section_content">
+          <h2>Jakarta, 31 Agustus 2022</h2>
+          <p>JL.Kalisari No 90 Pasar Rebo</p>
+          <h2>12:00 WIB</h2>
+        </div>
+
+        <div class="section_image"></div>
+      </div>
+    </section>
+    <!-- END AKAD -->
+
+    <!-- RESEPSI -->
+    <section id="resepsi">
+      <h1 class="section_title">Resepsi</h1>
+      <div class="section_wrapper">
+        <div class="section_image"></div>
+        <div class="section_content">
+          <h2>Jakarta, 31 Agustus 2022</h2>
+          <p>JL.Kalisari No 90 Pasar Rebo</p>
+          <h2>12:00 - 16:00 WIB</h2>
+        </div>
+      </div>
+    </section>
+    <!-- END RESEPSI -->
+
+    <!-- BUKU TAMU -->
+    <section id="buku_tamu">
+      <h1 class="section_titte">Buku Tamu</h1>
+      <div class="form_wrapper">
+        <form class="form_buku_tamu">
+          <div class="form_group">
+            <label for="fullname">Nama Lengkap</label>
+            <input type="text" id="fullname"/>
+          </div>
+
+          <div class="form_group">
+            <label for="phone">Nomer Telepon</label>
+            <input type="tel" id="phone"/>
+          </div>
+
+          <div class="form_group">
+            <label for="email">Email</label>
+            <input type="email" id="email"/>
+          </div>
+
+          <div class="form_group">
+            <label for="addres">Alamat</label>
+            <input type="addres" id="addres"/>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      </div>
+    </section>
+    <!-- END BUKU TAMU -->
+
+    <!-- MAP -->
+    <section id="map">
+      <h1 class="section_title">Lokasi</h1>
+      <div class="section_wrapper">
+
+        <div class="section_content">
+          <button class="btn_map">
+            <span class="material-symbols-outlined">location_on</span>
+             Dapatkan Lokasi
+            </button>
+
+          <button class="btn_map">
+            <span class="material-symbols-outlined"> calendar_month</span>
+             Save ke Kalender
+            </button>
+
+          <button class="btn_map">
+            <span class="material-symbols-outlined">share</span>
+             Share
+            </button>
+        </div>
+
+        <!-- IFRAME MAP -->
+        <div class="section_map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7930.854698215515!2d106.84566399657527!3d-6.3386549815614694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69edb328e4c2eb%3A0xd3d21ba8e0c83de4!2sKalisari%2C%20Kec.%20Ps.%20Rebo%2C%20Kota%20Jakarta%20Timur%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1660454321313!5m2!1sid!2sid"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- END IFRAME -->
+    </section>
+    </div>
+    <!-- END MAP -->
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <h1 class="section_title">Gallery</h1>
+      <div class="section_wraper">
+        <div class="gallery_list">
+          <img
+              src="https://i.postimg.cc/90bzR4xr/af889465b8944f6850e04ac573b50f20.jpg"
+              alt="gallery pertama"
+            />
+          <img
+              src="https://images.pexels.com/photos/3972220/pexels-photo-3972220.jpeg?auto=compress&cs=tinysrgb&w=1080&h=400&dpr=1"
+              alt="gallery kedua"
+            />
+          <img
+              src="https://images.pexels.com/photos/10074823/pexels-photo-10074823.jpeg?auto=compress&cs=tinysrgb&w=1080&h=400&dpr=1"
+              alt="gallery ketiga"
+            />
+          <img
+            src="https://images.pexels.com/photos/1702371/pexels-photo-1702371.jpeg?auto=compress&cs=tinysrgb&w=1080&h=400&dpr=1"
+            alt="gallery keempat"
+            />
+        </div>
+    </section>
+    <!-- END GALLERY -->
+  </main>
+
+  <footer>
+    <p>Design by :</p>
+    <h3>Belia Ardianti</h3>
+  </footer>
+</body>
+
+</html>
